@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Boats</title>
+  <style>
+
+  </style>
+  <link rel="stylesheet" href="../css/mystyle.css">
+</head>
+<body>
+<h1>Boats</h1>
+
+<table id="boatTable">
+  <thead>
+  <tr>
+    <th>Boat ID</th>
+    <th>Boat Name</th>
+    <th>Boat Type</th>
+    <th>Actions</th>
+  </tr>
+  </thead>
+  <tbody></tbody>
+</table>
+<button id="addBoatBtn">Add Boat</button>
+
+<!-- Modal -->
+<div id="modal" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <h2 id="modalTitle"></h2>
+    <form id="boatForm">
+      <label for="boatName">Boat Name:</label>
+      <input type="text" id="boatName" required>
+      <label for="boatType">Boat Type:</label>
+      <select id="boatType" required>
+        <option value="STOERRE_END_40_FOD">Larger than 40 foot</option>
+        <option value="MINDRE_END_25_FOD">Less than 25 foot</option>
+        <option value="MELLEM_25_OG_40_FOD">Between 25 and 40 foot</option>
+      </select>
+      <button id="submitBtn" type="submit">Submit</button>
+      <button id="cancelBtn" type="button">Cancel</button>
+    </form>
+  </div>
+</div>
+
+<script src="../js/boattable.js"></script>
+</body>
+</html>
