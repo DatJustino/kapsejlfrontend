@@ -4,19 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="54feafed-82a4-4c2c-89aa-1648c4a69908" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/mystyle.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/boattable.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/createboat.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kapsejlfrontend.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/createboats.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/viewboats.html" afterDir="false" />
+    <list default="true" id="54feafed-82a4-4c2c-89aa-1648c4a69908" name="Changes" comment="added create boat, added view boat tables, adding buttons, minimalistic css for now.">
+      <change afterPath="$PROJECT_DIR$/js/race.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/races.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/mystyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/mystyle.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/boattable.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/boattable.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/viewboats.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/viewboats.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,8 +21,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="package.json" />
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
         <option value="JavaScript File" />
       </list>
     </option>
@@ -73,11 +67,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1685611871148</updated>
-      <workItem from="1685611872189" duration="4290000" />
+      <workItem from="1685611872189" duration="30378000" />
     </task>
+    <task id="LOCAL-00001" summary="added create boat, added view boat tables, adding buttons, minimalistic css for now.">
+      <created>1685619159767</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1685619159767</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="added create boat, added view boat tables, adding buttons, minimalistic css for now." />
+    <option name="LAST_COMMIT_MESSAGE" value="added create boat, added view boat tables, adding buttons, minimalistic css for now." />
   </component>
 </project>
